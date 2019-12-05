@@ -1,0 +1,49 @@
+intents:
+  - ask_weather
+  - goodbye
+  - greet
+
+entities:
+- address
+- dateTime
+
+slots:
+  address:
+    type: unfeaturized
+    auto_fill: false
+  dateTime:
+    type: unfeaturized
+    auto_fill: false
+
+forms:
+  - weather_form
+
+actions:
+- utter_askTime
+- utter_askAddress
+- utter_answer
+- utter_goodbye
+- utter_greet
+- utter_submit
+
+templates:
+  utter_ask_dateTime:
+  - text: "想问啥时候的呀"
+  - text: "你丫的得告诉我时间啊"
+
+  utter_ask_address:
+  - text: "那嘎达呀"
+  - text: "啥地方呢"
+  
+  utter_answer:
+  - text: "{address}{dateTime}的天气老好了"
+  - text: "{address}{dateTime}的天气不咋地"
+  
+  utter_goodbye:
+  - text: "安心上路"
+  
+  utter_greet:
+  - text: "死鬼来啦"
+  
+  utter_submit:
+  - text: "知道了"
