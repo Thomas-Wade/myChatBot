@@ -19,8 +19,8 @@ forms:
   - weather_form
 
 actions:
-- utter_askTime
-- utter_askAddress
+- utter_ask_dateTime
+- utter_ask_address
 - utter_answer
 - utter_goodbye
 - utter_greet

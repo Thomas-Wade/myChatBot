@@ -1,0 +1,18 @@
+version: '3.0'
+services:
+  wechat:
+    build: ./wechat
+    ports:
+     - 8000:8000
+  rasa:
+    image: rasa/rasa:latest-full
+    ports:
+      - 5005:5005
+    volumes:
+      - ./:/app
+    command:
+      - run
+  action_server:
+    image: rasa/rasa-sdk:latest
+    volumes:
+      - ./actions:/app/actions
