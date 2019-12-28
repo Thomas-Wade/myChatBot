@@ -3,7 +3,7 @@ services:
   wechat:
     build: ./wechat
     ports:
-     - 8000:8000
+     - 80:80
   rasa:
     image: rasa/rasa:latest-full
     ports:
