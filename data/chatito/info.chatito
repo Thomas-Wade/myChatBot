@@ -1,0 +1,4 @@
+import ./ask_weather.chatito
+%[info]('training':'200')
+    @[dateTime]
+    @[city]

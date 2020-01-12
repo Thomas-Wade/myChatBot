@@ -1,0 +1,60 @@
+%[ask_weather]('training':'200')
+    @[dateTime?]@[city?]~[askWeatherWords]
+    @[city?]@[dateTime?]~[askWeatherWords]
+
+@[dateTime]
+    ~[今天]
+    现在
+    明天
+    后天
+
+~[今天]('synonym': 'true')
+    早上
+    中午
+    晚上
+
+@[city]
+    上海
+    北京
+    天津
+    石家庄
+    沈阳
+    哈尔滨
+    杭州
+    福州
+    济南
+    广州
+    武汉
+    成都
+    昆明
+    兰州
+    台北
+    南宁
+    银川
+    太原
+    长春
+    南京
+    合肥
+    南昌
+    郑州
+    长沙
+    海口
+    贵阳
+    西安
+    西宁
+    呼和浩特
+    拉萨
+    乌鲁木齐
+
+~[askWeatherWords]
+    多少度
+    几度
+    多少度
+    天气
+    的天气
+    的温度
+    的天气怎么样
+    天气怎么样
+    温度怎么样
+    会下雨吗
+    风大吗
