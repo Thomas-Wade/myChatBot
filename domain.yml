@@ -22,6 +22,7 @@ actions:
 - utter_goodbye
 - utter_greet
 - utter_submit
+- action_ask_weather
 
 templates:
   utter_ask_dateTime:

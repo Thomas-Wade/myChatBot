@@ -9,11 +9,11 @@ import json, jsonpath
 from urllib import parse
 
 class ActionAskWeather(Action):
-    def name(self) -> Text:
+    def name(self):
         """Unique identifier of the form"""
         return "action_ask_weather"
 
-    def run(self,dispatcher: CollectingDispatcher,tracker: Tracker,domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    def run(self,dispatcher,tracker,domain):
       response = WeatherInfo.getWeatherData(tracker.get_slot('city'), tracker.get_slot('dateTime'))
       dispatcher.utter_message(response)
       return [{}]
