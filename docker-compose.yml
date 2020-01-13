@@ -13,6 +13,6 @@ services:
     command:
       - run
   action_server:
-    image: rasa/rasa-sdk:1.4.0
+    build: ./actions
     volumes:
       - ./actions:/app/actions
