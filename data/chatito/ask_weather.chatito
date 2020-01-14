@@ -1,4 +1,4 @@
-%[ask_weather]('training':'200')
+%[ask_weather]('training':'300')
     @[dateTime?]@[city?]~[askWeatherWords]
     @[city?]@[dateTime?]~[askWeatherWords]
 
@@ -12,6 +12,7 @@
     早上
     中午
     晚上
+    今天
 
 @[city]
     上海

@@ -1,4 +1,3 @@
-import ./ask_weather.chatito
+import ./ask_weather.chatito.chatito
 %[info]('training':'200')
-    @[dateTime]
     @[city]

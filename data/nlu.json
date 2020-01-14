@@ -1,1 +1,5371 @@
-{"rasa_nlu_data":{"regex_features":[],"entity_synonyms":[{"synonyms":["晚上","中午","早上"],"value":"今天"},{"synonyms":["早上","中午","晚上"],"value":"今天"}],"common_examples":[{"text":"南宁明天的天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南宁"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"晚上太原风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"太原"}]},{"text":"海口中午会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"海口"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"晚上多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"}]},{"text":"后天福州的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"福州"}]},{"text":"沈阳晚上的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"沈阳"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"海口多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"海口"}]},{"text":"贵阳后天温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"贵阳"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"晚上西安天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"西安"}]},{"text":"晚上广州的天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"广州"}]},{"text":"贵阳明天几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"贵阳"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"昆明中午多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"昆明"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"海口明天的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"海口"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"早上呼和浩特的天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":6,"entity":"city","start":2,"value":"呼和浩特"}]},{"text":"明天西安的天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"西安"}]},{"text":"石家庄多少度","intent":"ask_weather","entities":[{"end":3,"entity":"city","start":0,"value":"石家庄"}]},{"text":"后天乌鲁木齐风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":6,"entity":"city","start":2,"value":"乌鲁木齐"}]},{"text":"杭州的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"杭州"}]},{"text":"上海现在多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"上海"},{"end":4,"entity":"dateTime","start":2,"value":"现在"}]},{"text":"明天上海的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"上海"}]},{"text":"明天成都天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"成都"}]},{"text":"福州风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"福州"}]},{"text":"天津现在天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"天津"},{"end":4,"entity":"dateTime","start":2,"value":"现在"}]},{"text":"济南温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"济南"}]},{"text":"中午石家庄风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":5,"entity":"city","start":2,"value":"石家庄"}]},{"text":"福州明天天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"福州"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"西安多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"西安"}]},{"text":"武汉多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"武汉"}]},{"text":"后天上海的温度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"上海"}]},{"text":"晚上贵阳的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"贵阳"}]},{"text":"早上武汉会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"武汉"}]},{"text":"兰州天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"兰州"}]},{"text":"中午昆明多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"昆明"}]},{"text":"中午广州几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"广州"}]},{"text":"北京的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"北京"}]},{"text":"合肥天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"合肥"}]},{"text":"明天西宁的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"西宁"}]},{"text":"中午台北风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"台北"}]},{"text":"中午拉萨多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"拉萨"}]},{"text":"南京明天多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南京"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"广州天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"广州"}]},{"text":"上海风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"上海"}]},{"text":"中午天津会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"天津"}]},{"text":"昆明的天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"昆明"}]},{"text":"合肥明天的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"合肥"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"拉萨天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"拉萨"}]},{"text":"昆明中午的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"昆明"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"南京后天的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南京"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"海口温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"海口"}]},{"text":"广州明天的天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"广州"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"南昌早上多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南昌"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"乌鲁木齐后天的天气怎么样","intent":"ask_weather","entities":[{"end":4,"entity":"city","start":0,"value":"乌鲁木齐"},{"end":6,"entity":"dateTime","start":4,"value":"后天"}]},{"text":"台北早上的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"台北"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"海口早上几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"海口"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"济南多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"济南"}]},{"text":"中午的天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"}]},{"text":"后天兰州温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"兰州"}]},{"text":"上海晚上天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"上海"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"天津后天多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"天津"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"明天昆明风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"昆明"}]},{"text":"西安明天几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"西安"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"银川明天的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"银川"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"福州后天天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"福州"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"杭州的天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"杭州"}]},{"text":"现在武汉几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"武汉"}]},{"text":"早上兰州风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"兰州"}]},{"text":"后天合肥风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"合肥"}]},{"text":"晚上兰州的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"兰州"}]},{"text":"石家庄晚上的天气怎么样","intent":"ask_weather","entities":[{"end":3,"entity":"city","start":0,"value":"石家庄"},{"end":5,"entity":"dateTime","start":3,"value":"今天"}]},{"text":"后天沈阳多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"沈阳"}]},{"text":"昆明明天几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"昆明"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"中午武汉几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"武汉"}]},{"text":"中午昆明的温度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"昆明"}]},{"text":"成都中午几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"成都"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"早上福州的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"福州"}]},{"text":"中午西宁的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"西宁"}]},{"text":"乌鲁木齐的天气","intent":"ask_weather","entities":[{"end":4,"entity":"city","start":0,"value":"乌鲁木齐"}]},{"text":"现在拉萨几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"拉萨"}]},{"text":"西安晚上温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"西安"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"后天武汉会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"武汉"}]},{"text":"明天台北几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"台北"}]},{"text":"广州温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"广州"}]},{"text":"现在合肥的温度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"合肥"}]},{"text":"哈尔滨多少度","intent":"ask_weather","entities":[{"end":3,"entity":"city","start":0,"value":"哈尔滨"}]},{"text":"兰州温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"兰州"}]},{"text":"现在长春会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"长春"}]},{"text":"杭州明天会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"杭州"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"郑州中午的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"郑州"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"合肥中午会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"合肥"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"成都早上会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"成都"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"明天昆明多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"昆明"}]},{"text":"后天昆明几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"昆明"}]},{"text":"现在杭州几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"杭州"}]},{"text":"南京明天温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南京"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"西安后天天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"西安"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"海口后天几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"海口"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"济南的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"济南"}]},{"text":"后天沈阳天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"沈阳"}]},{"text":"南昌的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南昌"}]},{"text":"现在乌鲁木齐温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":6,"entity":"city","start":2,"value":"乌鲁木齐"}]},{"text":"台北明天的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"台北"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"中午长春温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"长春"}]},{"text":"明天贵阳风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"贵阳"}]},{"text":"长沙晚上几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"长沙"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"兰州的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"兰州"}]},{"text":"明天成都的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"成都"}]},{"text":"中午呼和浩特天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":6,"entity":"city","start":2,"value":"呼和浩特"}]},{"text":"台北会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"台北"}]},{"text":"成都多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"成都"}]},{"text":"后天成都风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"成都"}]},{"text":"贵阳中午天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"贵阳"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"长沙天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"长沙"}]},{"text":"南昌的天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南昌"}]},{"text":"长沙天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"长沙"}]},{"text":"明天长春几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"长春"}]},{"text":"呼和浩特明天温度怎么样","intent":"ask_weather","entities":[{"end":4,"entity":"city","start":0,"value":"呼和浩特"},{"end":6,"entity":"dateTime","start":4,"value":"明天"}]},{"text":"南宁会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南宁"}]},{"text":"北京中午的天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"北京"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"兰州现在风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"兰州"},{"end":4,"entity":"dateTime","start":2,"value":"现在"}]},{"text":"晚上西安的天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"西安"}]},{"text":"南昌中午多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南昌"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"中午几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"}]},{"text":"后天济南天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"济南"}]},{"text":"武汉会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"武汉"}]},{"text":"广州几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"广州"}]},{"text":"早上的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"}]},{"text":"贵阳晚上风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"贵阳"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"沈阳现在天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"沈阳"},{"end":4,"entity":"dateTime","start":2,"value":"现在"}]},{"text":"乌鲁木齐中午多少度","intent":"ask_weather","entities":[{"end":4,"entity":"city","start":0,"value":"乌鲁木齐"},{"end":6,"entity":"dateTime","start":4,"value":"今天"}]},{"text":"晚上成都多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"成都"}]},{"text":"哈尔滨晚上天气怎么样","intent":"ask_weather","entities":[{"end":3,"entity":"city","start":0,"value":"哈尔滨"},{"end":5,"entity":"dateTime","start":3,"value":"今天"}]},{"text":"贵阳中午会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"贵阳"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"西安后天天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"西安"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"明天郑州天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"郑州"}]},{"text":"兰州天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"兰州"}]},{"text":"明天银川的天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"银川"}]},{"text":"合肥的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"合肥"}]},{"text":"中午海口的温度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"海口"}]},{"text":"明天台北多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"台北"}]},{"text":"现在会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"}]},{"text":"合肥温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"合肥"}]},{"text":"海口中午天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"海口"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"哈尔滨的天气怎么样","intent":"ask_weather","entities":[{"end":3,"entity":"city","start":0,"value":"哈尔滨"}]},{"text":"台北早上几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"台北"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"合肥现在几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"合肥"},{"end":4,"entity":"dateTime","start":2,"value":"现在"}]},{"text":"济南会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"济南"}]},{"text":"现在沈阳多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"沈阳"}]},{"text":"早上长春的温度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"长春"}]},{"text":"明天天津多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"天津"}]},{"text":"现在贵阳温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"贵阳"}]},{"text":"呼和浩特后天的天气","intent":"ask_weather","entities":[{"end":4,"entity":"city","start":0,"value":"呼和浩特"},{"end":6,"entity":"dateTime","start":4,"value":"后天"}]},{"text":"早上西宁风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"西宁"}]},{"text":"晚上西宁温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"西宁"}]},{"text":"现在呼和浩特温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":6,"entity":"city","start":2,"value":"呼和浩特"}]},{"text":"沈阳明天几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"沈阳"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"福州中午的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"福州"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"晚上长春天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"长春"}]},{"text":"天津后天天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"天津"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"西安现在多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"西安"},{"end":4,"entity":"dateTime","start":2,"value":"现在"}]},{"text":"银川多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"银川"}]},{"text":"杭州天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"杭州"}]},{"text":"早上济南天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"济南"}]},{"text":"早上杭州多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"杭州"}]},{"text":"晚上合肥的天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"合肥"}]},{"text":"后天长春的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"长春"}]},{"text":"早上西宁几度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"西宁"}]},{"text":"现在广州的天气","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"广州"}]},{"text":"福州中午多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"福州"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"明天郑州多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"郑州"}]},{"text":"南宁中午天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南宁"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"拉萨天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"拉萨"}]},{"text":"南昌后天的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南昌"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"后天海口的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"海口"}]},{"text":"明天南昌温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"},{"end":4,"entity":"city","start":2,"value":"南昌"}]},{"text":"长沙后天的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"长沙"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"西安中午多少度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"西安"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"后天南京多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"南京"}]},{"text":"中午银川天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"},{"end":4,"entity":"city","start":2,"value":"银川"}]},{"text":"现在郑州风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"郑州"}]},{"text":"长沙明天的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"长沙"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"武汉晚上的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"武汉"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"现在石家庄多少度","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":5,"entity":"city","start":2,"value":"石家庄"}]},{"text":"南宁明天温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南宁"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"济南明天风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"济南"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"西宁风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"西宁"}]},{"text":"福州中午天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"福州"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"呼和浩特几度","intent":"ask_weather","entities":[{"end":4,"entity":"city","start":0,"value":"呼和浩特"}]},{"text":"贵阳的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"贵阳"}]},{"text":"成都晚上会下雨吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"成都"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"早上风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"}]},{"text":"南京后天天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南京"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"乌鲁木齐中午温度怎么样","intent":"ask_weather","entities":[{"end":4,"entity":"city","start":0,"value":"乌鲁木齐"},{"end":6,"entity":"dateTime","start":4,"value":"今天"}]},{"text":"济南明天几度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"济南"},{"end":4,"entity":"dateTime","start":2,"value":"明天"}]},{"text":"现在西安风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"},{"end":4,"entity":"city","start":2,"value":"西安"}]},{"text":"沈阳晚上天气","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"沈阳"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"天津的天气怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"天津"}]},{"text":"兰州后天的温度","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"兰州"},{"end":4,"entity":"dateTime","start":2,"value":"后天"}]},{"text":"贵阳风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"贵阳"}]},{"text":"南宁中午温度怎么样","intent":"ask_weather","entities":[{"end":2,"entity":"city","start":0,"value":"南宁"},{"end":4,"entity":"dateTime","start":2,"value":"今天"}]},{"text":"后天武汉风大吗","intent":"ask_weather","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"},{"end":4,"entity":"city","start":2,"value":"武汉"}]},{"text":"你好","intent":"greet","entities":[]},{"text":"您好","intent":"greet","entities":[]},{"text":"Hello","intent":"greet","entities":[]},{"text":"hello","intent":"greet","entities":[]},{"text":"Hi","intent":"greet","entities":[]},{"text":"hi","intent":"greet","entities":[]},{"text":"喂","intent":"greet","entities":[]},{"text":"在么","intent":"greet","entities":[]},{"text":"拜拜","intent":"goodbye","entities":[]},{"text":"再见","intent":"goodbye","entities":[]},{"text":"拜","intent":"goodbye","entities":[]},{"text":"退出","intent":"goodbye","entities":[]},{"text":"结束","intent":"goodbye","entities":[]},{"text":"早上","intent":"info","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"}]},{"text":"中午","intent":"info","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"}]},{"text":"晚上","intent":"info","entities":[{"end":2,"entity":"dateTime","start":0,"value":"今天"}]},{"text":"现在","intent":"info","entities":[{"end":2,"entity":"dateTime","start":0,"value":"现在"}]},{"text":"明天","intent":"info","entities":[{"end":2,"entity":"dateTime","start":0,"value":"明天"}]},{"text":"后天","intent":"info","entities":[{"end":2,"entity":"dateTime","start":0,"value":"后天"}]},{"text":"上海","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"上海"}]},{"text":"北京","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"北京"}]},{"text":"天津","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"天津"}]},{"text":"石家庄","intent":"info","entities":[{"end":3,"entity":"city","start":0,"value":"石家庄"}]},{"text":"沈阳","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"沈阳"}]},{"text":"哈尔滨","intent":"info","entities":[{"end":3,"entity":"city","start":0,"value":"哈尔滨"}]},{"text":"杭州","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"杭州"}]},{"text":"福州","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"福州"}]},{"text":"济南","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"济南"}]},{"text":"广州","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"广州"}]},{"text":"武汉","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"武汉"}]},{"text":"成都","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"成都"}]},{"text":"昆明","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"昆明"}]},{"text":"兰州","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"兰州"}]},{"text":"台北","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"台北"}]},{"text":"南宁","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"南宁"}]},{"text":"银川","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"银川"}]},{"text":"太原","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"太原"}]},{"text":"长春","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"长春"}]},{"text":"南京","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"南京"}]},{"text":"合肥","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"合肥"}]},{"text":"南昌","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"南昌"}]},{"text":"郑州","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"郑州"}]},{"text":"长沙","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"长沙"}]},{"text":"海口","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"海口"}]},{"text":"贵阳","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"贵阳"}]},{"text":"西安","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"西安"}]},{"text":"西宁","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"西宁"}]},{"text":"呼和浩特","intent":"info","entities":[{"end":4,"entity":"city","start":0,"value":"呼和浩特"}]},{"text":"拉萨","intent":"info","entities":[{"end":2,"entity":"city","start":0,"value":"拉萨"}]},{"text":"乌鲁木齐","intent":"info","entities":[{"end":4,"entity":"city","start":0,"value":"乌鲁木齐"}]}]}}
+{
+	"rasa_nlu_data": {
+		"regex_features": [],
+		"entity_synonyms": [
+			{
+				"synonyms": [
+					"早上",
+					"中午",
+					"晚上"
+				],
+				"value": "今天"
+			}
+		],
+		"common_examples": [
+			{
+				"text": "上海",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "上海"
+					}
+				]
+			},
+			{
+				"text": "北京",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "北京"
+					}
+				]
+			},
+			{
+				"text": "天津",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					}
+				]
+			},
+			{
+				"text": "石家庄",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "石家庄"
+					}
+				]
+			},
+			{
+				"text": "沈阳",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "沈阳"
+					}
+				]
+			},
+			{
+				"text": "哈尔滨",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "哈尔滨"
+					}
+				]
+			},
+			{
+				"text": "杭州",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "杭州"
+					}
+				]
+			},
+			{
+				"text": "福州",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "济南",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "济南"
+					}
+				]
+			},
+			{
+				"text": "广州",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "广州"
+					}
+				]
+			},
+			{
+				"text": "武汉",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "武汉"
+					}
+				]
+			},
+			{
+				"text": "成都",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					}
+				]
+			},
+			{
+				"text": "昆明",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					}
+				]
+			},
+			{
+				"text": "兰州",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					}
+				]
+			},
+			{
+				"text": "台北",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "台北"
+					}
+				]
+			},
+			{
+				"text": "南宁",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					}
+				]
+			},
+			{
+				"text": "银川",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "银川"
+					}
+				]
+			},
+			{
+				"text": "太原",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "太原"
+					}
+				]
+			},
+			{
+				"text": "长春",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长春"
+					}
+				]
+			},
+			{
+				"text": "南京",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					}
+				]
+			},
+			{
+				"text": "合肥",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "合肥"
+					}
+				]
+			},
+			{
+				"text": "南昌",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南昌"
+					}
+				]
+			},
+			{
+				"text": "郑州",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					}
+				]
+			},
+			{
+				"text": "长沙",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长沙"
+					}
+				]
+			},
+			{
+				"text": "海口",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "海口"
+					}
+				]
+			},
+			{
+				"text": "贵阳",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "西安",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西安"
+					}
+				]
+			},
+			{
+				"text": "西宁",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西宁"
+					}
+				]
+			},
+			{
+				"text": "呼和浩特",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "呼和浩特"
+					}
+				]
+			},
+			{
+				"text": "拉萨",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "拉萨"
+					}
+				]
+			},
+			{
+				"text": "乌鲁木齐",
+				"intent": "info",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "乌鲁木齐"
+					}
+				]
+			},
+			{
+				"text": "广州风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "广州"
+					}
+				]
+			},
+			{
+				"text": "郑州的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					}
+				]
+			},
+			{
+				"text": "早上济南的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "济南"
+					}
+				]
+			},
+			{
+				"text": "今天杭州天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "杭州"
+					}
+				]
+			},
+			{
+				"text": "呼和浩特的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "呼和浩特"
+					}
+				]
+			},
+			{
+				"text": "昆明天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					}
+				]
+			},
+			{
+				"text": "石家庄早上多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "石家庄"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "今天西安天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "西安"
+					}
+				]
+			},
+			{
+				"text": "早上广州风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "广州"
+					}
+				]
+			},
+			{
+				"text": "现在北京的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "北京"
+					}
+				]
+			},
+			{
+				"text": "呼和浩特现在的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "呼和浩特"
+					},
+					{
+						"end": 6,
+						"entity": "dateTime",
+						"start": 4,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "郑州早上会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "南宁后天的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "沈阳后天天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "沈阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "早上天津风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "天津"
+					}
+				]
+			},
+			{
+				"text": "中午拉萨风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "拉萨"
+					}
+				]
+			},
+			{
+				"text": "现在风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "天津后天天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "的温度",
+				"intent": "ask_weather",
+				"entities": []
+			},
+			{
+				"text": "长沙天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长沙"
+					}
+				]
+			},
+			{
+				"text": "现在西安几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "西安"
+					}
+				]
+			},
+			{
+				"text": "今天哈尔滨天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 5,
+						"entity": "city",
+						"start": 2,
+						"value": "哈尔滨"
+					}
+				]
+			},
+			{
+				"text": "昆明多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					}
+				]
+			},
+			{
+				"text": "银川后天几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "银川"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "贵阳风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "天津早上几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "早上台北的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "台北"
+					}
+				]
+			},
+			{
+				"text": "济南晚上几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "济南"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "成都温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					}
+				]
+			},
+			{
+				"text": "合肥明天天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "合肥"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "武汉今天风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "武汉"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "中午北京的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "北京"
+					}
+				]
+			},
+			{
+				"text": "天津现在多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "昆明后天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "拉萨今天几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "拉萨"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "北京明天会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "北京"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "银川明天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "银川"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "晚上昆明多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "昆明"
+					}
+				]
+			},
+			{
+				"text": "天津早上的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "福州天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "石家庄现在温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "石家庄"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "中午天津的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "天津"
+					}
+				]
+			},
+			{
+				"text": "南宁后天天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "中午福州的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "早上呼和浩特温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 6,
+						"entity": "city",
+						"start": 2,
+						"value": "呼和浩特"
+					}
+				]
+			},
+			{
+				"text": "晚上西宁的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "西宁"
+					}
+				]
+			},
+			{
+				"text": "中午太原的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "太原"
+					}
+				]
+			},
+			{
+				"text": "沈阳晚上的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "沈阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "西安后天风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西安"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "南京现在会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "福州晚上天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "福州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "现在的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "晚上昆明的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "昆明"
+					}
+				]
+			},
+			{
+				"text": "合肥几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "合肥"
+					}
+				]
+			},
+			{
+				"text": "兰州今天会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "台北的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "台北"
+					}
+				]
+			},
+			{
+				"text": "南京温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					}
+				]
+			},
+			{
+				"text": "今天贵阳的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "今天石家庄风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 5,
+						"entity": "city",
+						"start": 2,
+						"value": "石家庄"
+					}
+				]
+			},
+			{
+				"text": "兰州现在的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "武汉中午会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "武汉"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "中午长春几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长春"
+					}
+				]
+			},
+			{
+				"text": "呼和浩特今天温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "呼和浩特"
+					},
+					{
+						"end": 6,
+						"entity": "dateTime",
+						"start": 4,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "明天广州多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "广州"
+					}
+				]
+			},
+			{
+				"text": "天津的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					}
+				]
+			},
+			{
+				"text": "济南多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "济南"
+					}
+				]
+			},
+			{
+				"text": "广州明天的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "广州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "台北明天天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "台北"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "合肥中午几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "合肥"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "晚上南京会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南京"
+					}
+				]
+			},
+			{
+				"text": "早上福州温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "明天乌鲁木齐的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 6,
+						"entity": "city",
+						"start": 2,
+						"value": "乌鲁木齐"
+					}
+				]
+			},
+			{
+				"text": "明天的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "今天合肥天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "合肥"
+					}
+				]
+			},
+			{
+				"text": "早上南宁几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南宁"
+					}
+				]
+			},
+			{
+				"text": "南京会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					}
+				]
+			},
+			{
+				"text": "今天长春多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长春"
+					}
+				]
+			},
+			{
+				"text": "南昌今天的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南昌"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "银川中午天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "银川"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "广州多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "广州"
+					}
+				]
+			},
+			{
+				"text": "银川晚上风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "银川"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "晚上上海多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "上海"
+					}
+				]
+			},
+			{
+				"text": "沈阳今天天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "沈阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "明天北京多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "北京"
+					}
+				]
+			},
+			{
+				"text": "西宁的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西宁"
+					}
+				]
+			},
+			{
+				"text": "西安天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西安"
+					}
+				]
+			},
+			{
+				"text": "今天杭州的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "杭州"
+					}
+				]
+			},
+			{
+				"text": "广州早上几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "广州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "广州几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "广州"
+					}
+				]
+			},
+			{
+				"text": "明天拉萨温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "拉萨"
+					}
+				]
+			},
+			{
+				"text": "现在兰州天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "兰州"
+					}
+				]
+			},
+			{
+				"text": "后天上海的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "上海"
+					}
+				]
+			},
+			{
+				"text": "杭州早上几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "杭州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "南京风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					}
+				]
+			},
+			{
+				"text": "西安温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西安"
+					}
+				]
+			},
+			{
+				"text": "后天南昌多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南昌"
+					}
+				]
+			},
+			{
+				"text": "后天长春的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长春"
+					}
+				]
+			},
+			{
+				"text": "今天南京风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南京"
+					}
+				]
+			},
+			{
+				"text": "中午长沙多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长沙"
+					}
+				]
+			},
+			{
+				"text": "中午几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "海口多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "海口"
+					}
+				]
+			},
+			{
+				"text": "长春天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长春"
+					}
+				]
+			},
+			{
+				"text": "现在太原温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "太原"
+					}
+				]
+			},
+			{
+				"text": "后天呼和浩特风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 6,
+						"entity": "city",
+						"start": 2,
+						"value": "呼和浩特"
+					}
+				]
+			},
+			{
+				"text": "现在郑州多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "郑州"
+					}
+				]
+			},
+			{
+				"text": "今天济南的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "济南"
+					}
+				]
+			},
+			{
+				"text": "南京晚上多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "南京明天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "郑州天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					}
+				]
+			},
+			{
+				"text": "长沙天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长沙"
+					}
+				]
+			},
+			{
+				"text": "福州今天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "福州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "上海中午多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "上海"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "南宁多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					}
+				]
+			},
+			{
+				"text": "兰州会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					}
+				]
+			},
+			{
+				"text": "太原现在的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "太原"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "乌鲁木齐温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "乌鲁木齐"
+					}
+				]
+			},
+			{
+				"text": "南宁后天温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "武汉天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "武汉"
+					}
+				]
+			},
+			{
+				"text": "早上贵阳天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "海口的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "海口"
+					}
+				]
+			},
+			{
+				"text": "中午多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "济南的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "济南"
+					}
+				]
+			},
+			{
+				"text": "后天长春风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长春"
+					}
+				]
+			},
+			{
+				"text": "太原几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "太原"
+					}
+				]
+			},
+			{
+				"text": "南京今天天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "兰州中午几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "沈阳现在几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "沈阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "西安多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西安"
+					}
+				]
+			},
+			{
+				"text": "福州的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "现在济南天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "济南"
+					}
+				]
+			},
+			{
+				"text": "郑州后天天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "早上南昌的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南昌"
+					}
+				]
+			},
+			{
+				"text": "现在合肥几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "合肥"
+					}
+				]
+			},
+			{
+				"text": "乌鲁木齐今天几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "乌鲁木齐"
+					},
+					{
+						"end": 6,
+						"entity": "dateTime",
+						"start": 4,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "呼和浩特现在天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "呼和浩特"
+					},
+					{
+						"end": 6,
+						"entity": "dateTime",
+						"start": 4,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "中午乌鲁木齐会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 6,
+						"entity": "city",
+						"start": 2,
+						"value": "乌鲁木齐"
+					}
+				]
+			},
+			{
+				"text": "南宁后天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "南昌早上几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南昌"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "早上南宁多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南宁"
+					}
+				]
+			},
+			{
+				"text": "上海会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "上海"
+					}
+				]
+			},
+			{
+				"text": "南昌今天会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南昌"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "会下雨吗",
+				"intent": "ask_weather",
+				"entities": []
+			},
+			{
+				"text": "福州今天的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "福州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "早上贵阳多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "中午上海风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "上海"
+					}
+				]
+			},
+			{
+				"text": "昆明今天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "石家庄早上风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "石家庄"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "现在天津天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "天津"
+					}
+				]
+			},
+			{
+				"text": "北京的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "北京"
+					}
+				]
+			},
+			{
+				"text": "兰州风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					}
+				]
+			},
+			{
+				"text": "早上乌鲁木齐多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 6,
+						"entity": "city",
+						"start": 2,
+						"value": "乌鲁木齐"
+					}
+				]
+			},
+			{
+				"text": "成都明天的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "南昌现在几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南昌"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "上海晚上会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "上海"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "晚上太原风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "太原"
+					}
+				]
+			},
+			{
+				"text": "海口今天温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "海口"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "昆明早上天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "哈尔滨早上多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "哈尔滨"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "今天郑州的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "郑州"
+					}
+				]
+			},
+			{
+				"text": "昆明现在多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "现在温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "武汉的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "武汉"
+					}
+				]
+			},
+			{
+				"text": "南宁会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					}
+				]
+			},
+			{
+				"text": "中午银川会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "银川"
+					}
+				]
+			},
+			{
+				"text": "现在长春的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长春"
+					}
+				]
+			},
+			{
+				"text": "后天天津风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "天津"
+					}
+				]
+			},
+			{
+				"text": "成都早上多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "呼和浩特天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "呼和浩特"
+					}
+				]
+			},
+			{
+				"text": "晚上乌鲁木齐多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 6,
+						"entity": "city",
+						"start": 2,
+						"value": "乌鲁木齐"
+					}
+				]
+			},
+			{
+				"text": "现在沈阳温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "沈阳"
+					}
+				]
+			},
+			{
+				"text": "成都今天天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "明天南昌的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南昌"
+					}
+				]
+			},
+			{
+				"text": "杭州温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "杭州"
+					}
+				]
+			},
+			{
+				"text": "明天福州会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "成都早上的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "现在广州风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "广州"
+					}
+				]
+			},
+			{
+				"text": "明天长沙天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长沙"
+					}
+				]
+			},
+			{
+				"text": "南昌会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南昌"
+					}
+				]
+			},
+			{
+				"text": "西安明天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西安"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "郑州早上多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "贵阳现在天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "贵阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "长沙明天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长沙"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "后天上海的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "上海"
+					}
+				]
+			},
+			{
+				"text": "中午长沙天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长沙"
+					}
+				]
+			},
+			{
+				"text": "西宁中午的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "晚上福州风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "长春中午几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长春"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "长沙中午风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长沙"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "福州几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "北京多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "北京"
+					}
+				]
+			},
+			{
+				"text": "晚上合肥会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "合肥"
+					}
+				]
+			},
+			{
+				"text": "哈尔滨后天风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "哈尔滨"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "今天福州温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "台北明天的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "台北"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "现在拉萨的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "拉萨"
+					}
+				]
+			},
+			{
+				"text": "天津会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					}
+				]
+			},
+			{
+				"text": "晚上南宁的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南宁"
+					}
+				]
+			},
+			{
+				"text": "郑州会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					}
+				]
+			},
+			{
+				"text": "南昌明天风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南昌"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "早上兰州会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "兰州"
+					}
+				]
+			},
+			{
+				"text": "早上兰州风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "兰州"
+					}
+				]
+			},
+			{
+				"text": "太原温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "太原"
+					}
+				]
+			},
+			{
+				"text": "晚上石家庄多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 5,
+						"entity": "city",
+						"start": 2,
+						"value": "石家庄"
+					}
+				]
+			},
+			{
+				"text": "郑州后天的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "郑州明天天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "今天贵阳多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "西宁明天的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "石家庄风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "石家庄"
+					}
+				]
+			},
+			{
+				"text": "现在会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "西宁现在多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "银川的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "银川"
+					}
+				]
+			},
+			{
+				"text": "晚上银川多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "银川"
+					}
+				]
+			},
+			{
+				"text": "中午西宁的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "西宁"
+					}
+				]
+			},
+			{
+				"text": "长沙晚上的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长沙"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "中午台北风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "台北"
+					}
+				]
+			},
+			{
+				"text": "长春今天多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长春"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "兰州明天几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "现在海口多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "海口"
+					}
+				]
+			},
+			{
+				"text": "海口早上会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "海口"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "沈阳中午的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "沈阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "中午拉萨会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "拉萨"
+					}
+				]
+			},
+			{
+				"text": "天津明天的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "南宁后天会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "济南现在多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "济南"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "济南今天天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "济南"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "拉萨后天的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "拉萨"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "长沙风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "长沙"
+					}
+				]
+			},
+			{
+				"text": "成都晚上的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "太原晚上的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "太原"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "北京后天的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "北京"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "后天合肥天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "合肥"
+					}
+				]
+			},
+			{
+				"text": "晚上合肥多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "合肥"
+					}
+				]
+			},
+			{
+				"text": "哈尔滨现在的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "哈尔滨"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "海口天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "海口"
+					}
+				]
+			},
+			{
+				"text": "晚上银川风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "银川"
+					}
+				]
+			},
+			{
+				"text": "南宁现在的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "晚上石家庄几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 5,
+						"entity": "city",
+						"start": 2,
+						"value": "石家庄"
+					}
+				]
+			},
+			{
+				"text": "晚上台北几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "台北"
+					}
+				]
+			},
+			{
+				"text": "西宁多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西宁"
+					}
+				]
+			},
+			{
+				"text": "北京早上多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "北京"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "今天西宁多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "西宁"
+					}
+				]
+			},
+			{
+				"text": "上海早上的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "上海"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "呼和浩特会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "呼和浩特"
+					}
+				]
+			},
+			{
+				"text": "明天台北多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "台北"
+					}
+				]
+			},
+			{
+				"text": "晚上太原的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "太原"
+					}
+				]
+			},
+			{
+				"text": "海口风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "海口"
+					}
+				]
+			},
+			{
+				"text": "早上福州的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "福州"
+					}
+				]
+			},
+			{
+				"text": "成都明天天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "西安晚上多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西安"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "沈阳会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "沈阳"
+					}
+				]
+			},
+			{
+				"text": "昆明的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					}
+				]
+			},
+			{
+				"text": "现在贵阳的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "兰州后天的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "兰州后天天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "兰州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "哈尔滨晚上天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "哈尔滨"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "中午成都几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "成都"
+					}
+				]
+			},
+			{
+				"text": "贵阳现在的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "贵阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "石家庄后天会下雨吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "石家庄"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "杭州中午的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "杭州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "天津中午多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "成都明天温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "成都"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "明天"
+					}
+				]
+			},
+			{
+				"text": "西宁后天天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "济南天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "济南"
+					}
+				]
+			},
+			{
+				"text": "南京的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南京"
+					}
+				]
+			},
+			{
+				"text": "早上的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "今天天津几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "天津"
+					}
+				]
+			},
+			{
+				"text": "南宁中午的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "今天风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "沈阳晚上的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "沈阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "今天海口的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "海口"
+					}
+				]
+			},
+			{
+				"text": "南宁晚上的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "早上的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "晚上杭州天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "杭州"
+					}
+				]
+			},
+			{
+				"text": "南宁现在的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "呼和浩特的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 0,
+						"value": "呼和浩特"
+					}
+				]
+			},
+			{
+				"text": "今天贵阳天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "明天南京多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南京"
+					}
+				]
+			},
+			{
+				"text": "中午南宁温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "南宁"
+					}
+				]
+			},
+			{
+				"text": "天津现在温度怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "天津"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "拉萨的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "拉萨"
+					}
+				]
+			},
+			{
+				"text": "昆明的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "昆明"
+					}
+				]
+			},
+			{
+				"text": "晚上北京天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "北京"
+					}
+				]
+			},
+			{
+				"text": "现在武汉的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "武汉"
+					}
+				]
+			},
+			{
+				"text": "西宁晚上的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "西宁"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "北京风大吗",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "北京"
+					}
+				]
+			},
+			{
+				"text": "明天贵阳的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "明天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "贵阳"
+					}
+				]
+			},
+			{
+				"text": "贵阳今天几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "贵阳"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "台北早上的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "台北"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "多少度",
+				"intent": "ask_weather",
+				"entities": []
+			},
+			{
+				"text": "早上长沙的天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "长沙"
+					}
+				]
+			},
+			{
+				"text": "现在成都的温度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "现在"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "成都"
+					}
+				]
+			},
+			{
+				"text": "郑州现在多少度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "郑州"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "现在"
+					}
+				]
+			},
+			{
+				"text": "拉萨中午几度",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "拉萨"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "南昌后天天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "南昌"
+					},
+					{
+						"end": 4,
+						"entity": "dateTime",
+						"start": 2,
+						"value": "后天"
+					}
+				]
+			},
+			{
+				"text": "哈尔滨中午天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "哈尔滨"
+					},
+					{
+						"end": 5,
+						"entity": "dateTime",
+						"start": 3,
+						"value": "今天"
+					}
+				]
+			},
+			{
+				"text": "中午兰州的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "兰州"
+					}
+				]
+			},
+			{
+				"text": "武汉的天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "city",
+						"start": 0,
+						"value": "武汉"
+					}
+				]
+			},
+			{
+				"text": "哈尔滨天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 3,
+						"entity": "city",
+						"start": 0,
+						"value": "哈尔滨"
+					}
+				]
+			},
+			{
+				"text": "今天太原天气怎么样",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "今天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "太原"
+					}
+				]
+			},
+			{
+				"text": "后天台北天气",
+				"intent": "ask_weather",
+				"entities": [
+					{
+						"end": 2,
+						"entity": "dateTime",
+						"start": 0,
+						"value": "后天"
+					},
+					{
+						"end": 4,
+						"entity": "city",
+						"start": 2,
+						"value": "台北"
+					}
+				]
+			},
+			{
+				"text": "拜拜",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "再见",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "拜",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "退出",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "结束",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "你好",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "您好",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "Hello",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hello",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "Hi",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hi",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "喂",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "在么",
+				"intent": "greet",
+				"entities": []
+			}
+		]
+	}
+}
