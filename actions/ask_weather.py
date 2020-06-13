@@ -1,5 +1,3 @@
-from rasa_sdk import Action
-from rasa_sdk.events import SlotSet
 import time
 import hashlib
 import hmac
@@ -7,6 +5,7 @@ import base64
 import requests
 import json, jsonpath
 from urllib import parse
+from rasa_sdk import Action
 
 class ActionAskWeather(Action):
     def name(self):

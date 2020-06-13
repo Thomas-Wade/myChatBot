@@ -1,47 +1,74 @@
 intents:
-  - ask_weather
-  - info
-  - goodbye
-  - greet
+- ask_weather
+- info
+- goodbye
+- greet
+- open
+- close
+- set_temperature
+- set_mode
+- turnup_temperature
+- turndown_temperature
 
 entities:
 - city
 - dateTime
+- device
+- position
+- mode
+- num
+- min
+- max
 
 slots:
   city:
     type: text
   dateTime:
     type: text
-    initial_value: "现在"
+    initial_value: 现在
+  device:
+    type: unfeaturized
+  mode:
+    type: unfeaturized
+  num:
+    type: unfeaturized
+  position:
+    type: unfeaturized
+
+templates:
+  utter_ask_dateTime:
+  - text: 想问啥时候的呀
+  - text: 你丫的得告诉我时间啊
+  utter_ask_city:
+  - text: 那嘎达呀
+  - text: 啥地方呢
+  utter_goodbye:
+  - text: 安心上路
+  utter_greet:
+  - text: 死鬼来啦
+  utter_ask_device:
+  - text: 什么设备呢
+  utter_ask_position:
+  - text: 在那个房间
+  utter_ask_mode:
+  - text: 什么模式
+  utter_ask_num:
+  - text: 多少度
 
 actions:
 - utter_ask_dateTime
 - utter_ask_city
-- utter_answer
 - utter_goodbye
 - utter_greet
-- utter_submit
-- action_ask_weather
+- utter_ask_device
+- utter_ask_position
+- utter_ask_mode
+- utter_ask_num
 
-templates:
-  utter_ask_dateTime:
-  - text: "想问啥时候的呀"
-  - text: "你丫的得告诉我时间啊"
-
-  utter_ask_city:
-  - text: "那嘎达呀"
-  - text: "啥地方呢"
-  
-  utter_answer:
-  - text: "{city}{dateTime}的天气老好了"
-  - text: "{city}{dateTime}的天气不咋地"
-  
-  utter_goodbye:
-  - text: "安心上路"
-  
-  utter_greet:
-  - text: "死鬼来啦"
-  
-  utter_submit:
-  - text: "知道了"
+forms:
+- open_form
+- close_form
+- set_mode_form
+- set_temperature_form
+- turnup_temperature_form
+- turndown_temperature_form

@@ -1,0 +1,9 @@
+1.空调温度设为最大最小 max作为entity,num还是slot
+2.所有灯打开
+3.现在卧室空调什么状态
+4.是否要设置为最大，多加一轮
+
+
+bug
+1.valid check后，有2条回复语
+2. slot_mapping max 和min entity已经识别出来，为啥没有填入slot

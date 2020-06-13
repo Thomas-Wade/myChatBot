@@ -1,0 +1,29 @@
+import ./key_words.chatito
+import ./verb.chatito
+import ./decorate_words.chatito
+
+%[open]('training':'100')
+    ~[open_verb]@[device]
+    ~[open_verb]@[position]的@[device]
+    ~[prewords]@[device]~[open_verb]
+    ~[prewords]@[position]的@[device]~[open_verb]
+
+%[close]('training':'100')
+    ~[close_verb]@[device]
+    ~[close_verb]@[position]的@[device]
+    ~[prewords]@[device]~[close_verb]
+    ~[prewords]@[position]的@[device]~[close_verb]
+
+%[set_temperature]('training':'100')
+    ~[prewords]@[position]的@[device_temperature]~[set_verb]@[num]度
+    ~[set_up_down_verb]@[position]的@[device_temperature]@[num]度
+
+%[set_mode]('training':'30')
+    ~[prewords]@[position]的@[device_aircondition]~[set_verb]@[mode_aircondition]
+    ~[set_up_down_verb]@[position]的@[device_temperature]为@[mode_aircondition]
+
+%[turnup_temperature]('training':'100')
+    ~[prewords]@[position]的@[device_temperature]~[turnup_verb]@[num]度
+
+%[turndown_temperature]('training':'100')
+    ~[prewords]@[position]的@[device_temperature]~[turndown_verb]@[num]度
